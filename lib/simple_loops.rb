@@ -15,15 +15,17 @@ def loop_message_n_times(message, limit)
 end
 
 def output_array(array)
-  count  = 0
-  
-  
+  count = 0
+  while count < array.length do
+    puts message
+    count += 1
+  end
 end
 
-def loop_message_five_times
-  
-end
-
-def return_string_array
-  
+def return_string_array(array)
+  count = 0
+  while count < 5 do
+    puts message
+    count += 1
+  end
 end
