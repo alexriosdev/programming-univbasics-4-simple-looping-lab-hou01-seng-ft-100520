@@ -24,7 +24,7 @@ end
 
 def return_string_array(array)
   count = 0
-  while count < 5 do
+  while count < array.length do
     puts message
     count += 1
   end
